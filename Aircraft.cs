@@ -4,11 +4,8 @@ using System.Text;
 
 namespace Garage
 {
-    class Aircraft
+    class Aircraft : VehicleBase
     {
-        public string Fuel { get; set; }
-        public string Color { get; set; }
-        public int PassengerCapacity { get; set; }
 
         public Aircraft(string fuel,
            string color, int passengerCapacity)

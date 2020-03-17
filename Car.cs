@@ -4,12 +4,10 @@ using System.Text;
 
 namespace Garage
 {
-    class Car
+    class Car : VehicleBase
     {
-        public string Fuel { get; set; }
         public int BatteryCapacity { get; set; }
-        public string Color { get; set; }
-        public int PassengerCapacity { get; set; }
+        
 
        public Car(string fuel, 
             string color, int passengerCapacity)

@@ -4,11 +4,9 @@ using System.Text;
 
 namespace Garage
 {
-    class Watercraft
+    class Watercraft : VehicleBase
     {
-        public string Fuel { get; set; }
-        public string Color { get; set; }
-        public int PassengerCapacity { get; set; }
+      
 
         public Watercraft(string fuel,
      string color, int passengerCapacity)
