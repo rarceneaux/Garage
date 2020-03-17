@@ -11,11 +11,11 @@ namespace Garage
         public string Color { get; set; }
         public int PassengerCapacity { get; set; }
 
-       public Car(string fuel, int batteryCapacity,
+       public Car(string fuel, 
             string color, int passengerCapacity)
         {
             Fuel = fuel;
-            PassengerCapacity = batteryCapacity;
+            PassengerCapacity = passengerCapacity;
             Color = color;
         }
 
