@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Garage
 {
-    class Aircraft : VehicleBase
+    public class Aircraft : VehicleBase
     {
 
         public Aircraft(string fuel,

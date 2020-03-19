@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Garage
 {
-    class Car : VehicleBase
+    public class Car : VehicleBase
     {
         public int BatteryCapacity { get; set; }
         
