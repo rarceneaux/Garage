@@ -1,4 +1,5 @@
 ﻿ using System;
+using System.Collections.Generic;
 
 namespace Garage
 {
@@ -7,9 +8,14 @@ namespace Garage
         public static void Main()
         {
             // Build a collection of all vehicles that fly
+            var aircrafts = new List<string> {"Airforce1","SpaceBalls","Falcon" };
             // With a single `foreach`, have each vehicle Fly()
-            var car = new Car("Mid","black", 3);
-            Console.WriteLine(Car);
+            foreach (var aircraft in aircrafts)
+            {
+               
+            }
+          
+          
             // Build a collection of all vehicles that operate on roads
             // With a single `foreach`, have each road vehicle Drive()
 

@@ -20,7 +20,7 @@ namespace Garage
             Console.WriteLine($"The Jet uses {Fuel} from China");
         }
 
-        public void Flying()
+        public void Fly()
         {
             Console.WriteLine("Due to the conroavirus flights are grounded");
         }
